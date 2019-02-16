@@ -1,0 +1,93 @@
+variável - possui um espaço reservado na memória para armazenar informação
+constante - valor que não muda
+
+let
+    não é mais var, usa let
+    só existe dentro da função
+    var é varíavel global
+    let é varíavel local
+
+   -tipado: precisa dizer qual o tipo de variável
+
+const
+    quando a variável é constante
+    desde que é criada, o valor atribúido não pode ser alterado
+    deve ser definida desde o começo
+
+camelcase
+    exemplo nome variável: diaDaSemana
+    let diaDaSemana = "domingo"
+
+atribuir valor a variáveis =
+    let nome = "alessandra"
+
+comparar valor de variáveis ==
+    "sabado" == "domingo"
+    deve retornar false
+
+    14 == "14"
+    deve retornar true
+
+comparar valor de variáveis levando em consideração o tipo de dado ===
+    14 === "14"
+    deve retornar false
+
+condicional E: usa &&
+
+condicional OU: usa ||
+
+abrir um popup no navegador
+alert("Parabens")
+alert ("Olá, " + nome + "voce ganhou 10000 reais")
+
+tipo de variável: typeof
+    sua função é ver qual o tipo de dado
+    typeof nome
+        deve retornar string
+
+prompt: entrada de dados para o navegador
+alert: saída/resposta do navegador
+
+    let nome = prompt("qual é o seu nome")
+
+    alert("Ola, " + nome + "seja bem vindo")
+
+    console.log é outro tipo de saída de dado
+
+criar lista
+    let listaDeAlunos = ["Lucas", "Joana", "Alessandra"]
+
+    let listaDoida = ["oi", true, 10, "ola", false]
+
+    listaDoida[1]
+        * retorna o valor de índice 1 da lista
+
+lista dentro de lista
+
+    let casa = {
+        cozinha: ["eletrodomesticos", "alimento", true, 16],
+        sala: ["tv", "sofa", true, 60],
+        quarto: "cama",
+        areaPiscina: ["piscina", "agua", 40, false]
+    }
+
+    let gato = {
+        rabo: ["castanho", "grande", true],
+        orelha: ["media", "castanho"],
+        tamanho: [50, "grandao"]
+    }
+
+    casa.cozinha[2]
+        * retorna o valor do índice 2 da lista cozinha
+
+
+
+https://github.com/LucasMelo18/aulaestacaohack2
+flat icon
+
+estacaohack@ftp.mastertech.com.br
+
+kahoot
+
+mandar até 3afeira
+bit.ly/2Thqcqq

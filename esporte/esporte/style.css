@@ -1,0 +1,17 @@
+img {
+    width: 250px;
+    height: 250px;
+    margin: 10px 0;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /*alinha na horizontal */
+
+}
+
+div {
+    width: 100vw;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
